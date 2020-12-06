@@ -50,9 +50,6 @@ def main():
     run = True
     FPS = 60
     clock = pygame.time.Clock()
-    level = 1
-    pHealth = 100
-    eHealth = 100
     volume = 100
     phealth_font = pygame.font.SysFont("timesnewroman", 32)
     ehealth_font = pygame.font.SysFont("timesnewroman", 42)
