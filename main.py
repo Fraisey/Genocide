@@ -11,6 +11,8 @@ WIDTH, HEIGHT = 1200, 900
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Genocide 2")
 
+lol = 1
+
 class Characters:
     def __init__(self, x, y, health=100):
         self.x = x
